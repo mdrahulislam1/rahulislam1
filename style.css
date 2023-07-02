@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+
+/* scrool bar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(128, 128, 128);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7F56F5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7e56f5e1;
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+    background-color: #7F56F5;
+    padding: 10px 0px 10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    width: 400px;
+    float: left;
+}
+
+.logo img {}
+
+nav {
+    width: 800px;
+    /* float: left; */
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* banner section start */
+.banner {
+    background-color: #7F56F5;
+    padding: 150px 0 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.banner p {}
+
+/* main section */
+.blog-items {}
+
+.single-item {
+    margin: 70px 0;
+    overflow: hidden;
+}
+
+.single-text {
+    width: 50%;
+    float: left;
+}
+
+.text {
+    padding: 0 50px 0 0;
+}
+
+.single-text img {}
+
+.single-text h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.single-text p {}
+
+.single-photo {
+    width: 50%;
+    float: left;
+}
+
+.btn-primary {
+    background: #7F56F5;
+    border-radius: 5px;
+    border: 1px solid #7F56F5;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn-primary:hover {
+    background: #7e56f50f;
+    color: black;
+}
+
+.single-photo img {}
+
+
+/* footer start */
+footer {
+    background-color: #F5F5FA;
+    padding-top: 50px;
+}
+
+.footer-item-parent {
+    display: flex;
+}
+
+.footer-item {
+    width: 25%;
+}
+
+.footer-item img {}
+
+.footer-item p {
+    padding-right: 50px;
+}
+
+.footer-item h5 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    color: #000000bf;
+}
+
+.footer-item li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+.footer-item li a {
+    color: #000000de;
+    text-decoration: none;
+...
